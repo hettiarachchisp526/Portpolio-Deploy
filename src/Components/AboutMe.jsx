@@ -3,9 +3,9 @@ import  { useState, useEffect } from "react";
 import Meimg from "../assets/myimage.png";
 
 //motion
-import {motion} from 'framer-motion'
+// import {motion} from 'framer-motion'
 //variants
-import { fadeIn } from "../variants";
+// import { fadeIn } from "../variants";
 
 const AboutMe = () => {
   const [showFullText, setShowFullText] = useState(false);
@@ -36,12 +36,9 @@ const AboutMe = () => {
         
 
         className="max-w-lg">
-          <motion.h2
-          variants={fadeIn("up", 0.2)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{once: false, amount: 0.7}} 
-          className="mb-8 text-3xl font-semibold text-center text-gray-300 sm:text-4xl">About Me</motion.h2>
+          <h2
+        
+          className="mb-8 text-3xl font-semibold text-center text-gray-300 sm:text-4xl">About Me</h2>
           <p className="max-w-4xl p-2 mt-4 text-sm text-center bg-gray-600 border-none rounded-lg select-none sm:rounded-md lg:rounded-lg sm:max-w-full text-neutral-400 sm:text-base lg:text-start md:text-start hover:shadow-md backdrop-blur-md bg-opacity-10 lg:p-5">
             As a 4th-year Software Engineering undergraduate with over 4 years of experience in digital product design, I'm dedicated to crafting engaging and functional solutions that resonate with users.
             {(!isMobile || showFullText) && (

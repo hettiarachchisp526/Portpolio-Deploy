@@ -5,10 +5,7 @@ import Portfolio from "../assets/ProjectyIMGs/Portfolio.png"
 import Prodigy from "../assets/ProjectyIMGs/Prodigy.png"
 import Flayers from "../assets/ProjectyIMGs/Flayers.png"
 
-//motion
-import {motion} from 'framer-motion'
-//variants
-import { fadeIn } from "../variants";
+
 
 
 
@@ -21,18 +18,15 @@ const Projects = () => {
 
   return (
     <div id="projects" className="container px-4 py-16 mx-auto sm:px-6 lg:px-8">
-      <motion.div 
-      variants={fadeIn("up", 0.2)}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{once: false, amount: 0.7}}
+      <div 
+
       
       className="flex flex-col items-center max-w-full text-start">
         <h2 className="max-w-full mb-8 text-3xl font-semibold text-center text-gray-300 sm:text-4xl">Projects</h2>
         <p className="max-w-full mb-8 text-base text-center text-neutral-400 sm:text-xl">
           A collection of my work in software development, graphic design, and UI/UX design. Explore how I turn ideas into impactful digital solutions.
         </p>
-      </motion.div>
+      </div>
 
       <>
         <section className="pt-0  lg:pt-8 lg:pb-[90px] dark:bg-dark">
