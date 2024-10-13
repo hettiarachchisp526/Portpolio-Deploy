@@ -6,7 +6,7 @@ import Prodigy from "../assets/ProjectyIMGs/Prodigy.png"
 import Flayers from "../assets/ProjectyIMGs/Flayers.png"
 
 
-
+import { Link } from 'react-router-dom';
 
 
 const Projects = () => {
@@ -129,10 +129,13 @@ const Projects = () => {
           </div>
         </section>
       </>
-      <div className="text-center ">
-                    <a href="./Projects" className="font-medium text-center text-orange-500 hover:text-orange-700">See more
-                        <span className="ml-2">&#8594;</span></a>
-                </div>
+      <div className="text-center">
+      <Link to="/projects" className="font-medium text-center text-orange-500 hover:text-orange-700">
+        See more
+        <span className="ml-2">&#8594;</span>
+      </Link>
+    </div>
+    
     </div>
   );
 };
