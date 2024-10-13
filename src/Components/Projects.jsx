@@ -130,7 +130,7 @@ const Projects = () => {
         </section>
       </>
       <div className="text-center ">
-                    <a href="#" className="font-medium text-center text-orange-500 hover:text-orange-700">See more
+                    <a href="./Projects" className="font-medium text-center text-orange-500 hover:text-orange-700">See more
                         <span className="ml-2">&#8594;</span></a>
                 </div>
     </div>
