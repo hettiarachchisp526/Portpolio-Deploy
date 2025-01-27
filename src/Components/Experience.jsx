@@ -3,6 +3,7 @@ import ExAimcreation from './ExAimcreation'
 import ExCeyentra from './ExCeyentra'
 import ExParabyte from './ExParabyte'
 import ExSynergenicx from './ExSynergenicx'
+import ExTalentfort from './ExTalentfort'
 
 
 
@@ -25,6 +26,9 @@ const Experience = () => {
 
         {/* experiance section - synergenicx------------------------------------------------------- */}
         <ExSynergenicx/>
+        
+        {/* experiance section - talentfort------------------------------------------------------- */}
+        <ExTalentfort/>
 
         {/* experiance section - Parabyte------------------------------------------------------- */}
 
